@@ -5,6 +5,7 @@ import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import { writeFile, utils } from 'xlsx';
 
+
 const FaceRecognition = dynamic(() => import('@/components/FaceRecognition'), { ssr: false });
 
 interface AttendanceEntry {
@@ -38,8 +39,9 @@ const Attendance: React.FC = () => {
   };
 
   return (
-    <div className="h-screen w-full bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 flex flex-col items-center justify-center p-6">
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-8">Face Recognition Attendance</h1>
+    <div className="h-screen w-full bg-[#101222] flex flex-col items-center justify-center p-6">
+     
+      <h1 className="text-4xl font-extrabold text-white mb-8">Face Recognition <span className='text-[#F4C224]'>Attendance</span> </h1>
       <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-3xl">
         <FaceRecognition
           onAttendanceMarked={handleAttendanceMarked}
@@ -49,7 +51,7 @@ const Attendance: React.FC = () => {
         <div className="mt-6 flex justify-between items-center">
           <button
             onClick={handleDownload}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
+            className="bg-[#F4C224] text-white font-bold py-2 px-4 rounded transition duration-300"
           >
             Download Attendance
           </button>
