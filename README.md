@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📸 No Proxy - Face Detection Based Attendance System
+Welcome to No Proxy, an advanced face detection-based attendance system that automatically marks attendance in an Excel sheet! 📊
 
-## Getting Started
+🌟 Features
+🧑‍🤝‍🧑 Face Detection: Utilizes advanced face detection algorithms to identify and mark attendance.
+📅 Automated Attendance: Marks attendance automatically and stores it in an easily downloadable Excel sheet.
+📥 Excel Export: Download the attendance records in a well-organized Excel sheet.
+💻 Real-time Processing: Fast and efficient real-time face recognition.
+🎨 User-Friendly Interface: Intuitive and easy-to-use interface.
+🚀 Demo
 
-First, run the development server:
+📚 Getting Started
+Prerequisites
+Ensure you have the following installed:
 
-```bash
+Node.js
+npm
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/himanshukandari14/NOPROXY.git
+cd noproxy
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up Python environment (for face detection):
+
+bash
+Copy code
+pip install -r requirements.txt
+Running the Application
+Start the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and navigate to:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+arduino
+Copy code
+http://localhost:3000
+Point the camera to detect faces and mark attendance! 🎉
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Download Attendance Sheet
+Click the 'Download' button on the interface.
+Save the Excel file to your desired location.
+🛠️ Built With
+Next.js - For the frontend framework
+TensorFlow.js - For face detection
+xlsx - For handling Excel files
+📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+📖 Documentation
+For detailed information, please refer to our documentation.
 
-To learn more about Next.js, take a look at the following resources:
+💬 Contact
+For any inquiries or feedback, feel free to reach out:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Email: himanshukandari14.com
+GitHub: @himanshukandari14
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🙏 Acknowledgements
+Face-api.js for face detection
+Next.js for the frontend framework
+TensorFlow.js for machine learning
+Happy Coding! 🎉
