@@ -120,7 +120,7 @@ const FaceRecognition: React.FC<FaceRecognitionProps> = ({ onAttendanceMarked, o
   };
 
   const loadLabeledImages = async () => {
-    const labels = ['Himanshu', 'Ramesh', 'priyanshu']; // Update with actual names
+    const labels = ['Himanshu',"Paarth","Lakshay"]; // Update with actual names
     return Promise.all(
       labels.map(async (label) => {
         const descriptions: Float32Array[] = [];
